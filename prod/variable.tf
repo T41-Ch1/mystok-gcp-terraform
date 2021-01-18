@@ -11,7 +11,7 @@ variable "prefix" {}
 provider "google" {
   project = var.project_id
   region = var.region
-  credentials = file("~/secret/fd32c28b5ec5-mystok-simple-terraform.json")
+  credentials = file("~/secret/71241c09ff42-mystok-gcp-terraform.json")
 }
 
 variable "gke_username" {
